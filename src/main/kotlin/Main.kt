@@ -1,3 +1,5 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import screens.ChooseArchiveScreen
+
+fun main() {
+    ChooseArchiveScreen.start(0)
 }
